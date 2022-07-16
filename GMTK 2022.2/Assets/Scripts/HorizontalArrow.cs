@@ -22,7 +22,10 @@ public class HorizontalArrow : MonoBehaviour
         transform.position = movePosition;
         foreach (GameObject s in shelfs)
         {
-            Destroy(gameObject);
+            if(transform.position == s.transform.position)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

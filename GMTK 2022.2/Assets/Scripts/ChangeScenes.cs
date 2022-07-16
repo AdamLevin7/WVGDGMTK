@@ -10,7 +10,6 @@ public class ChangeScenes : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("pls wonk");
             SceneManager.LoadScene(newLevel);
         }
 

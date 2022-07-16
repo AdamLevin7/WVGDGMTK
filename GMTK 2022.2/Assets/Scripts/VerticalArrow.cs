@@ -9,6 +9,7 @@ public class VerticalArrow : MonoBehaviour
     public float speed;
     public float endY;
     private float nextY;
+
     void Start()
     {
         shelfs = GameObject.FindGameObjectsWithTag("shelf");
@@ -22,7 +23,11 @@ public class VerticalArrow : MonoBehaviour
         transform.position = movePosition;
         foreach (GameObject s in shelfs)
         {
-            Destroy(gameObject);
+            if (transform.position == s.transform.position)
+            {
+                Destroy(gameObject);
+            }
         }
     }
+
 }
