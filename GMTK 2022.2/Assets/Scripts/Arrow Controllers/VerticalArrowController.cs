@@ -8,7 +8,7 @@ public class VerticalArrowController : MonoBehaviour
 
     void Start()
     {
-        ShootDown();
+        
     }
 
     void ShootDown()

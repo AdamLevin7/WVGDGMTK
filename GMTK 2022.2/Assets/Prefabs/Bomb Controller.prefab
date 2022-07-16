@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6903977398296458471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6903977398296458465}
+  - component: {fileID: 6903977398296458464}
+  - component: {fileID: 6903977398296458466}
+  - component: {fileID: 6903977398296458467}
+  - component: {fileID: 6903977398296458524}
+  m_Layer: 0
+  m_Name: Bomb Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6903977398296458465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6903977398296458471}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.135189, y: 0.24709578, z: -39.07505}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6903977398296458464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6903977398296458471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa0f2bc5ebd941adbbc6ef9b0695c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upTables:
+  - {fileID: 0}
+  sideTables:
+  - {fileID: 0}
+  bomb: {fileID: 5024586554997552333, guid: e143ccdbfc9294d18b8fb25141d7fb8e, type: 3}
+--- !u!114 &6903977398296458466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6903977398296458471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bf0a8c91d16a4265b08842509c0fbfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upTables:
+  - {fileID: 0}
+  sideTables:
+  - {fileID: 0}
+  bomb: {fileID: 6550862111039895418, guid: f0ff85a573c2245fbb1d97b1b31d8c02, type: 3}
+--- !u!114 &6903977398296458467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6903977398296458471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d40715038aae64328837d202d1e4c345, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upTables:
+  - {fileID: 0}
+  sideTables:
+  - {fileID: 0}
+  bomb: {fileID: 6000287378836158990, guid: 9b0a1400040234cb2a6e6aefd79bcd41, type: 3}
+--- !u!114 &6903977398296458524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6903977398296458471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d67d9cc0b7aba42d3ba1371d5c0929d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upTables:
+  - {fileID: 0}
+  sideTables:
+  - {fileID: 0}
+  bomb: {fileID: 6067771973303479643, guid: 28040396d7b0e4dbba2e85c4a0c27ed5, type: 3}

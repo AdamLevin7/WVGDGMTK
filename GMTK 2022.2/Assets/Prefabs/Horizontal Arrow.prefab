@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shelfs:
-  - {fileID: 0}
+  - {fileID: 8470862551346871979, guid: 69f6ed7a83eb84ee9ba66cad6783d2f3, type: 3}
   speed: 10
   endX: 15
 --- !u!61 &7491251964925094301

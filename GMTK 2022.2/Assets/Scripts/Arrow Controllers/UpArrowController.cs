@@ -8,7 +8,7 @@ public class UpArrowController : MonoBehaviour
 
     void Start()
     {
-        ShootUp();
+        
     }
 
     void ShootUp()

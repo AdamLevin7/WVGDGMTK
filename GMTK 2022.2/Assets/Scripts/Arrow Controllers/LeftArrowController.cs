@@ -8,7 +8,7 @@ public class LeftArrowController : MonoBehaviour
 
     void Start()
     {
-        ShootLeft();
+        
     }
 
     void ShootLeft()

@@ -9,7 +9,7 @@ public class RightArrowController : MonoBehaviour
 
     void Start()
     {
-        ShootRight();
+
     }
 
     void ShootRight()
