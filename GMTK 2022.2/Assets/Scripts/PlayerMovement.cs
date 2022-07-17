@@ -10,9 +10,24 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 MoveDirection;
     private bool facingRight;
+    private bool dead;
+    private float px;
+    private float py;
 
+    private void Start()
+    {
+        dead = false;
+        px = transform.position.x;
+        py = transform.position.y;
+        
+    }
     void Update()
     {
+        if (dead)
+        {
+            dead = false;
+            transform.position = new Vector2(px, py);
+        }
         ProcessInputs();
 
         animator.SetFloat("Speed", Mathf.Abs((MoveDirection.x) * MoveSpeed) + Mathf.Abs((MoveDirection.y) * MoveSpeed));
@@ -50,5 +65,17 @@ public class PlayerMovement : MonoBehaviour
         Vector3 Scaler = transform.localScale;
         Scaler.x *= -1;
         transform.localScale = Scaler;
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("arrow"))
+        {
+            die();
+        }
+
+    }
+    void die()
+    {
+        dead = true;
     }
 }

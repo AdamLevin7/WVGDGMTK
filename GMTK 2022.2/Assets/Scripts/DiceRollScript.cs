@@ -49,8 +49,6 @@ public class DiceRollScript : MonoBehaviour
             {
                 animator.SetBool("isRolling", false);
                 animator.SetInteger("roll", diceroll);
-                Debug.Log(diceroll);
-                Debug.Log(traps[diceroll]);
                 yield return waitTime;
                 if (traps[diceroll] == 1)
                 {
@@ -91,7 +89,7 @@ public class DiceRollScript : MonoBehaviour
 
     void Roll()
     {
-        diceroll = Random.Range(1, 7);
+        diceroll = Random.Range(1, 6);
 
     }
 }
