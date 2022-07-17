@@ -21,7 +21,7 @@ public class DiceRollScript : MonoBehaviour
     void Start()
     {
 
-        DataSaver.getTraps(traps);
+        traps = DataSaver.getTraps();
         StartCoroutine(InfiniteLoop());
     }
 
