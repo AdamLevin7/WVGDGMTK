@@ -12,7 +12,7 @@ public class RightArrowController : MonoBehaviour
 
     }
 
-    void ShootRight()
+    public void ShootRight()
     {
         for (int y = -8; y < 9; y += 2)
         {

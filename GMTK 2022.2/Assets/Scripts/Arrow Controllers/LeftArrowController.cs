@@ -11,7 +11,7 @@ public class LeftArrowController : MonoBehaviour
         
     }
 
-    void ShootLeft()
+    public void ShootLeft()
     {
         for (int y = -8; y < 9; y += 2)
         {

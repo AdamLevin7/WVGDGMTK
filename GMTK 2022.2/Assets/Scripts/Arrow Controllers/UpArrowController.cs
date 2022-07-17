@@ -11,7 +11,7 @@ public class UpArrowController : MonoBehaviour
         
     }
 
-    void ShootUp()
+    public void ShootUp()
     {
         for (int x = -8; x < 9; x += 2)
         {

@@ -5,28 +5,26 @@ using UnityEngine;
 public class DiceRollScript : MonoBehaviour
 {
     private int diceroll;
-    private int[] traps = new int[6];
-    private int[] trapnumber = { 1, 2, 3, 4, 5, 6 };
+    private int[] traps = { 1, 2, 3, 4, 5, 6 };
+    private string[] trapStrings = { "left", "right", "up", "down", "bomb", "idk" };
     public Animator animator;
+    public LeftArrowController LA;
+    public RightArrowController RA;
+    public UpArrowController UA;
+    public DownArrowController DA;
 
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(InfiniteLoop());
-        /*
-        int counter = 0;
-        while (counter < 5)
+
+        for (int t = 0; t < 6; t++)
         {
-            Roll();
-            if (trapnumber[diceroll] != 0)
-            {
-                traps[counter] = trapnumber[diceroll];
-                trapnumber[diceroll] = 0;
-                counter++;
-            }
+            int rand = Random.Range(0, 5);
+            int temp = traps[rand];
+            traps[rand] = traps[t];
+            traps[t] = temp;
         }
-        Debug.Log(traps);
-        */
+        StartCoroutine(InfiniteLoop());
     }
 
     // Update is called once per frame
@@ -46,18 +44,41 @@ public class DiceRollScript : MonoBehaviour
             {
                 animator.SetBool("isRolling", false);
                 animator.SetInteger("roll", diceroll);
+
+
             }
             else
             {
+                int temp = traps[diceroll] - 1;
+
+                if (trapStrings[traps[temp] - 1].Equals("right"))
+                {
+                    RA.ShootRight();
+                }
+
+                if (trapStrings[traps[temp] - 1].Equals("left"))
+                {
+                    LA.ShootLeft();
+                }
+                if (trapStrings[traps[temp] - 1].Equals("up"))
+                {
+                    UA.ShootUp();
+                }
+                if (trapStrings[traps[temp] - 1].Equals("down"))
+                {
+                    DA.ShootDown();
+                }
                 animator.SetBool("isRolling", true);
             }
             yield return waitTime;
-            
+
+
         }
     }
 
     void Roll()
     {
         diceroll = Random.Range(1, 6);
+
     }
 }

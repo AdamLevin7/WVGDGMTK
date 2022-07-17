@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VerticalArrowController : MonoBehaviour
+public class DownArrowController : MonoBehaviour
 {
     public GameObject block;
 
@@ -11,7 +11,7 @@ public class VerticalArrowController : MonoBehaviour
         
     }
 
-    void ShootDown()
+    public void ShootDown()
     {
         for(int x = -8; x < 9; x += 2)
         {
