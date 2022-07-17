@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float MoveSpeed;
     public Rigidbody2D rb;
     public Animator animator;
+    public string firstLevel;
 
     private Vector2 MoveDirection;
     private bool facingRight;
@@ -28,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
         {
             dead = false;
             transform.position = new Vector2(px, py);
+            SceneManager.LoadScene(firstLevel);
         }
         ProcessInputs();
 
