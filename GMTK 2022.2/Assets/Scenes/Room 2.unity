@@ -410,7 +410,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2708445355213177079, guid: edd83ce93306441ee8aaab3ab9399cc3, type: 3}
       propertyPath: newLevel
-      value: Scenes/Scene 2
+      value: Scenes/Room 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edd83ce93306441ee8aaab3ab9399cc3, type: 3}
@@ -693,7 +693,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5538517480285155683, guid: bd9010f50b91c44af9ccfec1958591ff, type: 3}
       propertyPath: firstLevel
-      value: Scenes/SampleScene
+      value: Scenes/Room 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd9010f50b91c44af9ccfec1958591ff, type: 3}
