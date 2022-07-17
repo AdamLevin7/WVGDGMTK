@@ -44,12 +44,14 @@ public class DiceRollScript : MonoBehaviour
         {
             //var aa;
             Roll();
+
             if (animator.GetBool("isRolling") == true)
             {
                 animator.SetBool("isRolling", false);
                 animator.SetInteger("roll", diceroll);
                 Debug.Log(diceroll);
                 Debug.Log(traps[diceroll]);
+                yield return waitTime;
                 if (traps[diceroll] == 1)
                 {
                     RA.ShootRight();
@@ -81,19 +83,15 @@ public class DiceRollScript : MonoBehaviour
             }
             else
             {
-               
                 animator.SetBool("isRolling", true);
+                yield return waitTime;
             }
-           
-            yield return waitTime;
-
-
         }
     }
 
     void Roll()
     {
-        diceroll = Random.Range(1, 6);
+        diceroll = Random.Range(1, 7);
 
     }
 }
