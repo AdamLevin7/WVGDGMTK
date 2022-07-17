@@ -772,6 +772,78 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0685cfe2d8a71442392a332eee474247, type: 3}
+--- !u!1001 &884391845
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3309483491316241031, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309483491316241031, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.511929
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309483491316241031, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.6843618
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309483491316241031, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9719.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309483491316241031, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309483491316241031, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309483491316241031, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309483491316241031, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309483491316241031, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309483491316241031, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309483491316241031, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4930041507973432636, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1940994473}
+    - target: {fileID: 8203039475703479495, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+      propertyPath: m_Name
+      value: Death Counter Stuff
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+--- !u!114 &884391846 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4930041508163188715, guid: 6b3edd563c1d5469a93fb485db791840, type: 3}
+  m_PrefabInstance: {fileID: 884391845}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &998234847
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2045,6 +2117,7 @@ GameObject:
   - component: {fileID: 1940994474}
   - component: {fileID: 1940994473}
   - component: {fileID: 1940994472}
+  - component: {fileID: 1940994475}
   m_Layer: 0
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -2117,6 +2190,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1940994475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940994471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ebbfcde837814f6daf96f55b5c91ea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathCount: {fileID: 884391846}
 --- !u!4 &2118542615 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8470862551346871977, guid: 69f6ed7a83eb84ee9ba66cad6783d2f3, type: 3}

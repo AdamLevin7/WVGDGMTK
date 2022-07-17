@@ -84,5 +84,6 @@ public class PlayerMovement : MonoBehaviour
     void die()
     {
         dead = true;
+        DataSaver.died();
     }
 }
