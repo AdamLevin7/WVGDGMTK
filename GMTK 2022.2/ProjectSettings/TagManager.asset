@@ -9,6 +9,7 @@ TagManager:
   - shelf
   - arrow
   - bomb
+  - Game Music
   layers:
   - Default
   - TransparentFX
