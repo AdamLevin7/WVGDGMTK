@@ -21,13 +21,7 @@ public class DiceRollScript : MonoBehaviour
     void Start()
     {
 
-        for (int t = 0; t < 6; t++)
-        {
-            int rand = Random.Range(0, 6);
-            int temp = traps[rand];
-            traps[rand] = traps[t];
-            traps[t] = temp;
-        }
+        DataSaver.getTraps(traps);
         StartCoroutine(InfiniteLoop());
     }
 
@@ -48,7 +42,7 @@ public class DiceRollScript : MonoBehaviour
             if (animator.GetBool("isRolling") == true)
             {
                 animator.SetBool("isRolling", false);
-                animator.SetInteger("roll", diceroll+1);
+                animator.SetInteger("roll", diceroll);
                 yield return waitTime;
                 if (traps[diceroll] == 1)
                 {
@@ -89,7 +83,7 @@ public class DiceRollScript : MonoBehaviour
 
     void Roll()
     {
-        diceroll = Random.Range(0, 6);
+        diceroll = Random.Range(1, 6);
 
     }
 }
