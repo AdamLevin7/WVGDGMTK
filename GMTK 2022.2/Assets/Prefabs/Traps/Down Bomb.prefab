@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6067771973303479463}
   - component: {fileID: 3208909013107802286}
   - component: {fileID: 3837180058250870120}
+  - component: {fileID: 6728828248946674703}
   m_Layer: 0
   m_Name: Down Bomb
   m_TagString: bomb
@@ -144,3 +145,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &6728828248946674703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6067771973303479643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d67d9cc0b7aba42d3ba1371d5c0929d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upTables:
+  - {fileID: 4249670322783617615, guid: 0685cfe2d8a71442392a332eee474247, type: 3}
+  sideTables:
+  - {fileID: 8350036184908351026, guid: 42ac20909c12d425d880dd314b1a633c, type: 3}
+  bomb: {fileID: 0}

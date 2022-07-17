@@ -47,9 +47,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upTables:
-  - {fileID: 0}
+  - {fileID: 4249670322783617615, guid: 0685cfe2d8a71442392a332eee474247, type: 3}
   sideTables:
-  - {fileID: 0}
+  - {fileID: 8350036184908351026, guid: 42ac20909c12d425d880dd314b1a633c, type: 3}
   bomb: {fileID: 5024586554997552333, guid: e143ccdbfc9294d18b8fb25141d7fb8e, type: 3}
 --- !u!114 &6903977398296458466
 MonoBehaviour:
@@ -64,9 +64,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upTables:
-  - {fileID: 0}
+  - {fileID: 4249670322783617615, guid: 0685cfe2d8a71442392a332eee474247, type: 3}
   sideTables:
-  - {fileID: 0}
+  - {fileID: 8350036184908351026, guid: 42ac20909c12d425d880dd314b1a633c, type: 3}
   bomb: {fileID: 6550862111039895418, guid: f0ff85a573c2245fbb1d97b1b31d8c02, type: 3}
 --- !u!114 &6903977398296458467
 MonoBehaviour:
@@ -81,9 +81,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upTables:
-  - {fileID: 0}
+  - {fileID: 4249670322783617615, guid: 0685cfe2d8a71442392a332eee474247, type: 3}
   sideTables:
-  - {fileID: 0}
+  - {fileID: 8350036184908351026, guid: 42ac20909c12d425d880dd314b1a633c, type: 3}
   bomb: {fileID: 6000287378836158990, guid: 9b0a1400040234cb2a6e6aefd79bcd41, type: 3}
 --- !u!114 &6903977398296458524
 MonoBehaviour:
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upTables:
-  - {fileID: 0}
+  - {fileID: 4249670322783617615, guid: 0685cfe2d8a71442392a332eee474247, type: 3}
   sideTables:
-  - {fileID: 0}
+  - {fileID: 8350036184908351026, guid: 42ac20909c12d425d880dd314b1a633c, type: 3}
   bomb: {fileID: 6067771973303479643, guid: 28040396d7b0e4dbba2e85c4a0c27ed5, type: 3}
