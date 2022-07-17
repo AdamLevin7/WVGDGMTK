@@ -7,11 +7,6 @@ public class RightArrowController : MonoBehaviour
 
     public GameObject block;
 
-    void Start()
-    {
-
-    }
-
     public void ShootRight()
     {
         for (int y = -8; y < 9; y += 2)

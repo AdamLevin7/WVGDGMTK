@@ -6,11 +6,6 @@ public class LeftArrowController : MonoBehaviour
 {
     public GameObject block;
 
-    void Start()
-    {
-        
-    }
-
     public void ShootLeft()
     {
         for (int y = -8; y < 9; y += 2)

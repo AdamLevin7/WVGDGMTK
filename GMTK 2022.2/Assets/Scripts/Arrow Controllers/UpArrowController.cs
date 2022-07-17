@@ -6,11 +6,6 @@ public class UpArrowController : MonoBehaviour
 {
     public GameObject block;
 
-    void Start()
-    {
-        
-    }
-
     public void ShootUp()
     {
         for (int x = -8; x < 9; x += 2)
