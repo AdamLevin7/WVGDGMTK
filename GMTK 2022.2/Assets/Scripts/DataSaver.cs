@@ -6,23 +6,23 @@ public static class DataSaver
 {
 
     // Start is called before the first frame update
-    public static int[] traps = { 1, 2, 3, 4, 5, 6 };
-    public static void Start()
+    public static int[] nums = { 1, 2, 3, 4, 5, 6 };
+    public static void doThing()
     {
-
         for (int t = 0; t < 6; t++)
         {
             int rand = Random.Range(0, 6);
-            int temp = traps[rand];
-            traps[rand] = traps[t];
-            traps[t] = temp;
-            
+            int temp = nums[rand];
+            nums[rand] = nums[t];
+            nums[t] = temp;
+
         }
+
     }
 
     public static int[] getTraps()
     {
-        return traps;
+        return nums;
     }
     
 }

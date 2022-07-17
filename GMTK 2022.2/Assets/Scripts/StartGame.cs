@@ -10,7 +10,7 @@ public class StartGame : MonoBehaviour
 
     void OnMouseDown()
     {
-
+        DataSaver.doThing();
         SceneManager.LoadScene("Scenes/Room 1");
     }
 }
