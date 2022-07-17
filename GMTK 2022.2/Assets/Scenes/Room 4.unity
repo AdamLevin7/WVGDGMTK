@@ -426,7 +426,7 @@ PrefabInstance:
     - target: {fileID: 6903977398296458464, guid: 5970d2dabc24740fbbacce992c2823f5, type: 3}
       propertyPath: sideTables.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1514279438}
     - target: {fileID: 6903977398296458465, guid: 5970d2dabc24740fbbacce992c2823f5, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -502,7 +502,7 @@ PrefabInstance:
     - target: {fileID: 6903977398296458466, guid: 5970d2dabc24740fbbacce992c2823f5, type: 3}
       propertyPath: sideTables.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1514279438}
     - target: {fileID: 6903977398296458467, guid: 5970d2dabc24740fbbacce992c2823f5, type: 3}
       propertyPath: upTables.Array.size
       value: 3
@@ -534,7 +534,7 @@ PrefabInstance:
     - target: {fileID: 6903977398296458467, guid: 5970d2dabc24740fbbacce992c2823f5, type: 3}
       propertyPath: sideTables.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1514279438}
     - target: {fileID: 6903977398296458471, guid: 5970d2dabc24740fbbacce992c2823f5, type: 3}
       propertyPath: m_Name
       value: Bomb Controller
@@ -570,7 +570,7 @@ PrefabInstance:
     - target: {fileID: 6903977398296458524, guid: 5970d2dabc24740fbbacce992c2823f5, type: 3}
       propertyPath: sideTables.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1514279438}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5970d2dabc24740fbbacce992c2823f5, type: 3}
 --- !u!1001 &450107334
@@ -1287,6 +1287,11 @@ PrefabInstance:
 --- !u!4 &1514279437 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8350036184908351031, guid: 42ac20909c12d425d880dd314b1a633c, type: 3}
+  m_PrefabInstance: {fileID: 1514279436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1514279438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8350036184908351026, guid: 42ac20909c12d425d880dd314b1a633c, type: 3}
   m_PrefabInstance: {fileID: 1514279436}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1659281530
