@@ -20,7 +20,7 @@ public class LeftBombController : MonoBehaviour
         
     }
 
-    void LeftBombs()
+    public void LeftBombs()
     {
         foreach (GameObject table in upTables)
         {

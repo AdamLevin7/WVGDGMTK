@@ -20,7 +20,7 @@ public class DownBombController : MonoBehaviour
         
     }
 
-    void DownBombs()
+    public void DownBombs()
     {
         foreach (GameObject table in upTables)
         {
