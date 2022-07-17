@@ -2610,3 +2610,173 @@ System memory in use after: 222.5 MB.
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2950.
 Total: 2.778245 ms (FindLiveObjects: 0.357460 ms CreateObjectMapping: 0.113512 ms MarkObjects: 2.181055 ms  DeleteObjects: 0.125322 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012789 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.210 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2092 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.6 MB.
+System memory in use after: 222.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2954.
+Total: 2.950473 ms (FindLiveObjects: 0.421650 ms CreateObjectMapping: 0.152446 ms MarkObjects: 2.240089 ms  DeleteObjects: 0.135108 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010157 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.266 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2092 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.8 MB.
+System memory in use after: 222.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2958.
+Total: 2.409682 ms (FindLiveObjects: 0.279564 ms CreateObjectMapping: 0.085717 ms MarkObjects: 1.933848 ms  DeleteObjects: 0.109483 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1320.749745 seconds.
+  path: Assets/Assets/edgetiles.png
+  artifactKey: Guid(16126d2a6df3549c2924f8752180ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/edgetiles.png using Guid(16126d2a6df3549c2924f8752180ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7413f3aa9934d3f1acaf3ca26a319b64') in 0.169444 seconds
+  Import took 0.198139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.695131 seconds.
+  path: Assets/Assets/edgetiles.png
+  artifactKey: Guid(16126d2a6df3549c2924f8752180ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/edgetiles.png using Guid(16126d2a6df3549c2924f8752180ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd62b2cbedac8ec9e5ce3f6b14a6400e') in 0.017128 seconds
+  Import took 0.022424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.800465 seconds.
+  path: Assets/Assets/edgetiles.png
+  artifactKey: Guid(16126d2a6df3549c2924f8752180ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/edgetiles.png using Guid(16126d2a6df3549c2924f8752180ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303597a0bb81e80427c35cf6e02d8d3a') in 0.029494 seconds
+  Import took 0.035679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.307374 seconds.
+  path: Assets/Assets/edgetiles.png
+  artifactKey: Guid(16126d2a6df3549c2924f8752180ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/edgetiles.png using Guid(16126d2a6df3549c2924f8752180ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe1522b68bcf6f98e371dc843b316ef') in 0.064990 seconds
+  Import took 0.073068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.435299 seconds.
+  path: Assets/Assets/edgetiles_0.asset
+  artifactKey: Guid(458999bce39f145df8e6d2cb24dbf512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/edgetiles_0.asset using Guid(458999bce39f145df8e6d2cb24dbf512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd8fe70e09d7d855b912368d512ac92') in 0.047557 seconds
+  Import took 0.053478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Assets/New Palette.prefab
+  artifactKey: Guid(272d75c4ebd9847c99e8510a4f1e9bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Palette.prefab using Guid(272d75c4ebd9847c99e8510a4f1e9bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d00b00926aeae17a6ea89f05f10249c') in 0.020866 seconds
+  Import took 0.024986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Assets/edgetiles_7.asset
+  artifactKey: Guid(b213b5e2cae4d4604a2ed77755c4628c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/edgetiles_7.asset using Guid(b213b5e2cae4d4604a2ed77755c4628c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c171d8ba8b348dec4c3fd177c72e2bfb') in 0.019035 seconds
+  Import took 0.022597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Assets/edgetiles_5.asset
+  artifactKey: Guid(108e83e6c34f946d88c28a7fe04291ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/edgetiles_5.asset using Guid(108e83e6c34f946d88c28a7fe04291ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899cfb448944890762dfa976b96b1f25') in 0.015263 seconds
+  Import took 0.019972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Assets/edgetiles_6.asset
+  artifactKey: Guid(0a676b57ad62d44a79fab34da9486634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/edgetiles_6.asset using Guid(0a676b57ad62d44a79fab34da9486634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67e044fb5394acf71a044df52562072') in 0.009791 seconds
+  Import took 0.013321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Assets/edgetiles_3.asset
+  artifactKey: Guid(bff2fd3ee0103470ca8c76c4d2fe97ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/edgetiles_3.asset using Guid(bff2fd3ee0103470ca8c76c4d2fe97ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f0b1b329df9a072d5d3f03330ef1fb') in 0.011890 seconds
+  Import took 0.015448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Assets/edgetiles_1.asset
+  artifactKey: Guid(14cd925b2f1784919bd5759710fc0614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/edgetiles_1.asset using Guid(14cd925b2f1784919bd5759710fc0614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168f7a3a0265c6f445bf91cf030861fe') in 0.017797 seconds
+  Import took 0.021688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Assets/edgetiles_2.asset
+  artifactKey: Guid(2505bd08892864f4c8732f3353e8e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/edgetiles_2.asset using Guid(2505bd08892864f4c8732f3353e8e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e4f75c45a264fcefa329f1fce1fd45') in 0.010802 seconds
+  Import took 0.015413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Assets/edgetiles_4.asset
+  artifactKey: Guid(8bd81730dd71f44caa6a2b86389ead33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/edgetiles_4.asset using Guid(8bd81730dd71f44caa6a2b86389ead33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2d70497589b6ff67dafc118539b466') in 0.018366 seconds
+  Import took 0.023160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.860376 seconds.
+  path: Assets/Assets/edgetiles.png
+  artifactKey: Guid(16126d2a6df3549c2924f8752180ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/edgetiles.png using Guid(16126d2a6df3549c2924f8752180ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f5fa77ed95d1b9dd56c21257ed0dcd') in 0.054617 seconds
+  Import took 0.061236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.430216 seconds.
+  path: Assets/Assets/New Palette.prefab
+  artifactKey: Guid(272d75c4ebd9847c99e8510a4f1e9bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Palette.prefab using Guid(272d75c4ebd9847c99e8510a4f1e9bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063b394de6dc2e746c17d6c2c62438b8') in 0.010027 seconds
+  Import took 0.014864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.858953 seconds.
+  path: Assets/Assets/edgetiles.png
+  artifactKey: Guid(16126d2a6df3549c2924f8752180ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/edgetiles.png using Guid(16126d2a6df3549c2924f8752180ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9463f36cd95e96882049f084f3ae842') in 0.056008 seconds
+  Import took 0.061962 seconds .
+

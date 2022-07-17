@@ -222,7 +222,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: d19793dacb5224f25a2f44ac1d05e8dc, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -331,7 +331,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: d19793dacb5224f25a2f44ac1d05e8dc, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -572,6 +572,50 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &589665825 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6998997428192695389, guid: 8022f785f575445c0a174f64df251bba, type: 3}
+  m_PrefabInstance: {fileID: 6998997427607421564}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 326185f199ca74224b60b1f0193061e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &589665827 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6998997428192695391, guid: 8022f785f575445c0a174f64df251bba, type: 3}
+  m_PrefabInstance: {fileID: 6998997427607421564}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399cc805515e94333a5ca95a294b3a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &589665828 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6998997428192695384, guid: 8022f785f575445c0a174f64df251bba, type: 3}
+  m_PrefabInstance: {fileID: 6998997427607421564}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52002db3c3e834793a84a559e30fe3b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &589665829 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6998997428192695385, guid: 8022f785f575445c0a174f64df251bba, type: 3}
+  m_PrefabInstance: {fileID: 6998997427607421564}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfafbec99da5442eb209304aad2de62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &824250259
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,7 +715,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: d19793dacb5224f25a2f44ac1d05e8dc, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2008,7 +2052,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: d19793dacb5224f25a2f44ac1d05e8dc, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2275,7 +2319,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: d19793dacb5224f25a2f44ac1d05e8dc, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2723,6 +2767,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7845451661363136413, guid: a7489864d552e4dee9185392bb75127b, type: 3}
+      propertyPath: DA
+      value: 
+      objectReference: {fileID: 589665825}
+    - target: {fileID: 7845451661363136413, guid: a7489864d552e4dee9185392bb75127b, type: 3}
+      propertyPath: LA
+      value: 
+      objectReference: {fileID: 589665829}
+    - target: {fileID: 7845451661363136413, guid: a7489864d552e4dee9185392bb75127b, type: 3}
+      propertyPath: RA
+      value: 
+      objectReference: {fileID: 589665827}
+    - target: {fileID: 7845451661363136413, guid: a7489864d552e4dee9185392bb75127b, type: 3}
+      propertyPath: UA
+      value: 
+      objectReference: {fileID: 589665828}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7489864d552e4dee9185392bb75127b, type: 3}
 --- !u!1001 &8350036184709421443
