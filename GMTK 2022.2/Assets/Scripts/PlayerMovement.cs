@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
         py = transform.position.y;
         
     }
+
     void Update()
     {
         if (dead)
@@ -72,7 +73,10 @@ public class PlayerMovement : MonoBehaviour
         {
             die();
         }
-
+        if(other.CompareTag("bomb"))
+        {
+            die();
+        }
     }
     void die()
     {
